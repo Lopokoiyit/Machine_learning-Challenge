@@ -19,7 +19,7 @@
 	*  Using StandardScaler resulted better scores that MinMaxScaler, so used StandardScaler to scale and normalize the data.
 	*  The scores for training and testing data was :Training Data Score: 0.887659736791913, Testing Data Score: 0.8895881006864989.
 	*  Using GridSearchCV to tune the model's parameters, and changing C values, and increasing the number of iterations max_iter didn't improve scores sufficiently.
-As a result, the two models SVM and LogisticRegression didn't have any significant difference between them for this data, even hyperparameters tuning didn't help the differentiate the models. We can say SVM model performs slightly better.	
+As a result, the two models SVM and LogisticRegression didn't have any significant difference between them for this data, even hyperparameters tuning didn't help to differentiate the models. We can say SVM model performs slightly better.	
 
 
 	
